@@ -15,6 +15,7 @@
     let currentIndex = 0;
     let answers = {};       // { questionId: { selected, submitted, isCorrect, correctAnswer } }
     let selectedOption = null;
+    let selectedConfidence = "sure"; // default
     let session = null;
 
     // Auto-save interval (30 seconds)
@@ -102,6 +103,16 @@
         nextBtn.addEventListener("click", () => navigate(1));
         prevBtn.addEventListener("click", () => navigate(-1));
         finishBtn.addEventListener("click", handleFinish);
+
+        // Confidence buttons
+        document.querySelectorAll(".confidence-btn").forEach((btn) => {
+            btn.addEventListener("click", function () {
+                if (btn.classList.contains("disabled")) return;
+                document.querySelectorAll(".confidence-btn").forEach((b) => b.classList.remove("active"));
+                btn.classList.add("active");
+                selectedConfidence = btn.dataset.confidence;
+            });
+        });
 
         // Auto-save every 30 seconds
         setInterval(saveAnswers, AUTO_SAVE_INTERVAL);
@@ -200,11 +211,17 @@
 
             if (existingAnswer && existingAnswer.submitted) {
                 btn.classList.add("disabled");
-                if (opt.letter === existingAnswer.correctAnswer) {
-                    btn.classList.add("correct");
-                }
-                if (opt.letter === existingAnswer.selected && !existingAnswer.isCorrect) {
-                    btn.classList.add("incorrect");
+                if (session.showAnswers) {
+                    if (opt.letter === existingAnswer.correctAnswer) {
+                        btn.classList.add("correct");
+                    }
+                    if (opt.letter === existingAnswer.selected && !existingAnswer.isCorrect) {
+                        btn.classList.add("incorrect");
+                    }
+                } else {
+                    if (opt.letter === existingAnswer.selected) {
+                        btn.classList.add("selected");
+                    }
                 }
             } else {
                 btn.addEventListener("click", () => selectOption(opt.letter, btn));
@@ -213,13 +230,37 @@
             optionsContainer.appendChild(btn);
         });
 
-        // Feedback
+        // Confidence buttons
+        const confBtns = document.querySelectorAll(".confidence-btn");
         if (existingAnswer && existingAnswer.submitted) {
-            showFeedback(existingAnswer.isCorrect, existingAnswer.correctAnswer);
+            // Show saved confidence, disable buttons
+            confBtns.forEach((btn) => {
+                btn.classList.remove("active");
+                btn.classList.add("disabled");
+                if (btn.dataset.confidence === (existingAnswer.confidence || "sure")) {
+                    btn.classList.add("active");
+                }
+            });
+        } else {
+            // Reset to default "sure"
+            selectedConfidence = "sure";
+            confBtns.forEach((btn) => {
+                btn.classList.remove("active", "disabled");
+                if (btn.dataset.confidence === "sure") {
+                    btn.classList.add("active");
+                }
+            });
+        }
+
+        // Show state based on whether already answered
+        feedback.style.display = "none";
+        if (existingAnswer && existingAnswer.submitted) {
             submitBtn.style.display = "none";
+            if (session.showAnswers) {
+                showFeedback(existingAnswer.isCorrect, existingAnswer.correctAnswer);
+            }
             showNavigationButtons(index);
         } else {
-            feedback.style.display = "none";
             submitBtn.style.display = "inline-block";
             submitBtn.disabled = true;
             submitBtn.textContent = "Submit Answer";
@@ -254,6 +295,7 @@
         // Store answer
         answers[qId] = {
             selected: selectedOption,
+            confidence: selectedConfidence,
             submitted: true,
             isCorrect: isCorrect,
             correctAnswer: q.correct_answer,
@@ -261,24 +303,38 @@
             timestamp: new Date().toISOString(),
         };
         saveAnswers();
-
-        // Update option styling
-        document.querySelectorAll(".option-btn").forEach((btn) => {
-            const letter = btn.querySelector(".option-letter").textContent;
-            btn.classList.add("disabled");
-            btn.classList.remove("selected");
-            if (letter === q.correct_answer) {
-                btn.classList.add("correct");
-            }
-            if (letter === selectedOption && !isCorrect) {
-                btn.classList.add("incorrect");
-            }
-        });
-
-        showFeedback(isCorrect, q.correct_answer);
-        submitBtn.style.display = "none";
-        showNavigationButtons(currentIndex);
         updateProgress();
+
+        if (session.showAnswers) {
+            // Show feedback, disable options, show Next/Finish
+            document.querySelectorAll(".option-btn").forEach((btn) => {
+                const letter = btn.querySelector(".option-letter").textContent;
+                btn.classList.add("disabled");
+                btn.classList.remove("selected");
+                if (letter === q.correct_answer) {
+                    btn.classList.add("correct");
+                }
+                if (letter === selectedOption && !isCorrect) {
+                    btn.classList.add("incorrect");
+                }
+            });
+            document.querySelectorAll(".confidence-btn").forEach((b) => b.classList.add("disabled"));
+            showFeedback(isCorrect, q.correct_answer);
+            submitBtn.style.display = "none";
+            showNavigationButtons(currentIndex);
+        } else {
+            // Auto-advance to next question or show finish
+            if (currentIndex < QUESTIONS.length - 1) {
+                currentIndex++;
+                loadQuestion(currentIndex);
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            } else {
+                // Last question — show finish button
+                submitBtn.style.display = "none";
+                document.querySelectorAll(".option-btn").forEach((btn) => btn.classList.add("disabled"));
+                showNavigationButtons(currentIndex);
+            }
+        }
     }
 
     // ============================================================
@@ -347,6 +403,8 @@
         const payload = {
             user_id: session.userId,
             email: session.userEmail || "",
+            expertise_years: session.expertiseYears || "",
+            expertise_rating: session.expertiseRating || "",
             session_id: session.sessionId,
             started_at: session.startedAt,
             completed_at: new Date().toISOString(),

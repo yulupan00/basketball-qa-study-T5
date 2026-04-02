@@ -51,6 +51,42 @@
                         <input type="email" class="form-control" id="user_email" name="user_email"
                                placeholder="e.g., john@example.com" autocomplete="off">
                     </div>
+                    <div class="mb-3">
+                        <label for="expertise_years" class="form-label">Years of basketball experience (watching/playing/coaching)</label>
+                        <input type="number" class="form-control" id="expertise_years" name="expertise_years"
+                               min="0" max="50" placeholder="e.g., 5" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Self-rated basketball knowledge (1 = none, 10 = expert)</label>
+                        <div class="rating-scale" id="ratingScale">
+                            <button type="button" class="rating-btn" data-value="1">1</button>
+                            <button type="button" class="rating-btn" data-value="2">2</button>
+                            <button type="button" class="rating-btn" data-value="3">3</button>
+                            <button type="button" class="rating-btn" data-value="4">4</button>
+                            <button type="button" class="rating-btn" data-value="5">5</button>
+                            <button type="button" class="rating-btn" data-value="6">6</button>
+                            <button type="button" class="rating-btn" data-value="7">7</button>
+                            <button type="button" class="rating-btn" data-value="8">8</button>
+                            <button type="button" class="rating-btn" data-value="9">9</button>
+                            <button type="button" class="rating-btn" data-value="10">10</button>
+                        </div>
+                        <input type="hidden" id="expertise_rating" name="expertise_rating" required>
+                        <div class="rating-labels">
+                            <span>None</span>
+                            <span>Expert</span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="toggle-option">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="showAnswers">
+                                <span class="toggle-slider"></span>
+                            </label>
+                            <div class="toggle-text">
+                                <span class="form-label">Show correct answer after each submission</span>
+                            </div>
+                        </div>
+                    </div>
                     <button type="submit" class="btn btn-primary btn-lg w-100">Start Study</button>
                 </form>
             </div>
@@ -65,6 +101,15 @@
             const types = new Set(QUESTIONS.map(q => q.question_type));
             document.getElementById('totalCount').textContent = QUESTIONS.length;
             document.getElementById('typeCount').textContent = types.size;
+
+            // Rating scale buttons
+            document.querySelectorAll('.rating-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.rating-btn').forEach(function(b) { b.classList.remove('active'); });
+                    btn.classList.add('active');
+                    document.getElementById('expertise_rating').value = btn.dataset.value;
+                });
+            });
 
             // Check for existing session
             const savedSession = localStorage.getItem('bqa_session');
@@ -89,12 +134,22 @@
                 e.preventDefault();
                 const userId = document.getElementById('user_id').value.trim();
                 const userEmail = document.getElementById('user_email').value.trim();
-                if (!userId) return;
+                const expertiseYears = document.getElementById('expertise_years').value;
+                const expertiseRating = document.getElementById('expertise_rating').value;
+                if (!userId || !expertiseYears || !expertiseRating) {
+                    if (!expertiseRating) alert('Please select a self-rating (1-10).');
+                    return;
+                }
 
                 // Save session
+                const showAnswers = document.getElementById('showAnswers').checked;
+
                 const session = {
                     userId: userId,
                     userEmail: userEmail,
+                    expertiseYears: parseInt(expertiseYears),
+                    expertiseRating: parseInt(expertiseRating),
+                    showAnswers: showAnswers,
                     startedAt: new Date().toISOString(),
                     sessionId: crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2),
                 };

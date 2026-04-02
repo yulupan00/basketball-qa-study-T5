@@ -1,4 +1,4 @@
-const QUESTIONS = [
+[
   {
     "id": 268683252,
     "question_type": "Q1_atomic_action_recognition",
@@ -25,7 +25,8 @@ const QUESTIONS = [
         "text": "2 PT Missed"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/7_VTB League/525398/525398_Darol Hernandez-Zinenko_Foul_268683252.mp4"
   },
   {
     "id": 226731767,
@@ -53,7 +54,8 @@ const QUESTIONS = [
         "text": "Pick'n'Roll"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/18_Eurocup/12183/12183_Pierre Pelos_Pick'n'Roll_226731767.mp4"
   },
   {
     "id": 156957175,
@@ -81,7 +83,8 @@ const QUESTIONS = [
         "text": "Free Throw Missed"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/530988/530988_Alperen Kurnaz_Pick'n'Roll_156957175.mp4"
   },
   {
     "id": 183677193,
@@ -109,7 +112,8 @@ const QUESTIONS = [
         "text": "Screen/Post"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/29563/29563_Jalen White_Turnover_183677193.mp4"
   },
   {
     "id": 243070298,
@@ -137,7 +141,8 @@ const QUESTIONS = [
         "text": "3 PT Missed"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/2_Euroleague/3006/3006_Petr Cornelie_2+_243070298.mp4"
   },
   {
     "id": 155159304,
@@ -165,7 +170,8 @@ const QUESTIONS = [
         "text": "2 Pt Missed, Rebound, 2 Pt Made"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/156_NCAA Division I (W)/477362/477362_Ashley Berube_2+_155159304.mp4"
   },
   {
     "id": 135801032,
@@ -193,7 +199,8 @@ const QUESTIONS = [
         "text": "Rebound, 2+1, Foul"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/6_NCAA Division I/28788/28788_Shelton Mitchell_2+1_135801032.mp4"
   },
   {
     "id": 166013966,
@@ -221,7 +228,8 @@ const QUESTIONS = [
         "text": "Screen, 3 Pt Missed, Rebound"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/472610/472610_Evan Cole_2+_166013966.mp4"
   },
   {
     "id": 281897386,
@@ -249,7 +257,8 @@ const QUESTIONS = [
         "text": "3 Pt Missed, Rebound, Foul"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/68_China. CBA/13228/13228_Jordan Crawford_Rebound_281897386.mp4"
   },
   {
     "id": 134524803,
@@ -277,7 +286,8 @@ const QUESTIONS = [
         "text": "3 Pt Missed, 2 Pt Made, Assisting"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/39_FIBA Europe Cup/8597/8597_Erving Walker_3-_134524803.mp4"
   },
   {
     "id": 217854794,
@@ -293,7 +303,8 @@ const QUESTIONS = [
         "text": "Contested"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/6_NCAA Division I/553402/553402_Riley Abercrombie_3-_217854794.mp4"
   },
   {
     "id": 170843992,
@@ -309,7 +320,8 @@ const QUESTIONS = [
         "text": "Uncontested"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/34157/34157_Sam Hauser_3-_170843992.mp4"
   },
   {
     "id": 224923420,
@@ -325,7 +337,8 @@ const QUESTIONS = [
         "text": "Uncontested"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/6_NCAA Division I/58437/58437_Dontay Bassett_3-_224923420.mp4"
   },
   {
     "id": 147598024,
@@ -341,7 +354,8 @@ const QUESTIONS = [
         "text": "Uncontested"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/156_NCAA Division I (W)/562805/562805_Jill Harris_3-_147598024.mp4"
   },
   {
     "id": 268774187,
@@ -357,7 +371,8 @@ const QUESTIONS = [
         "text": "Contested"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/6_NCAA Division I/532821/532821_Tim Finke_2-_268774187.mp4"
   },
   {
     "id": 177510865,
@@ -385,7 +400,8 @@ const QUESTIONS = [
         "text": "Quick first step"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/156_NCAA Division I (W)/530345/530345_Kristina Moore_2-_177510865.mp4"
   },
   {
     "id": 252825046,
@@ -413,7 +429,8 @@ const QUESTIONS = [
         "text": "Spin move"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/658443/658443_Keanna Rembeert_2+1_252825046.mp4"
   },
   {
     "id": 184362145,
@@ -441,7 +458,8 @@ const QUESTIONS = [
         "text": "Quick first step"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/31_Spain. Liga Endesa/7893/7893_Simone Fontecchio_2-_184362145.mp4"
   },
   {
     "id": 212683904,
@@ -469,7 +487,8 @@ const QUESTIONS = [
         "text": "In & out"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/156_NCAA Division I (W)/33224/33224_Weronika Hipp_3-_212683904.mp4"
   },
   {
     "id": 202937118,
@@ -497,7 +516,8 @@ const QUESTIONS = [
         "text": "Jab step"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/6_NCAA Division I/588168/588168_Samkelo Cele_2-_202937118.mp4"
   },
   {
     "id": 254158258,
@@ -513,7 +533,8 @@ const QUESTIONS = [
         "text": "Drives Right"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/148664/148664_Victoria Davis_2+_254158258.mp4"
   },
   {
     "id": 253738191,
@@ -529,7 +550,8 @@ const QUESTIONS = [
         "text": "Drives Right"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/601686/601686_Ellie Taylor_2-_253738191.mp4"
   },
   {
     "id": 151737746,
@@ -545,7 +567,8 @@ const QUESTIONS = [
         "text": "Drives Left"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/28053/28053_Andres Feliz Sarita_2-_151737746.mp4"
   },
   {
     "id": 117958741,
@@ -561,7 +584,8 @@ const QUESTIONS = [
         "text": "Drives Right"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/13_ABA League/2187/2187_Rade Zagorac_3-_117958741.mp4"
   },
   {
     "id": 121153793,
@@ -577,7 +601,8 @@ const QUESTIONS = [
         "text": "Drives Left"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/6_NCAA Division I/539220/539220_Isaiah Powell_2-_121153793.mp4"
   },
   {
     "id": 249567931,
@@ -605,7 +630,8 @@ const QUESTIONS = [
         "text": "Pick-n-roll without a ball"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/566577/566577_Sydnei Caldwell_2-_249567931.mp4"
   },
   {
     "id": 134493441,
@@ -633,7 +659,8 @@ const QUESTIONS = [
         "text": "Catch and shoot"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/125_Australia. National Basketball League/460875/460875_Jason Robert Cadee_3-_134493441.mp4"
   },
   {
     "id": 283049646,
@@ -661,7 +688,8 @@ const QUESTIONS = [
         "text": "Pick'n'pop"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/3_NBA/26751/26751_Joel Embiid_2+_283049646.mp4"
   },
   {
     "id": 171630727,
@@ -689,7 +717,8 @@ const QUESTIONS = [
         "text": "Pick-n-roll without a ball"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/560894/560894_D.J. Jeffries_Steal_171630727.mp4"
   },
   {
     "id": 251742806,
@@ -717,7 +746,8 @@ const QUESTIONS = [
         "text": "Hand offs"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/566866/566866_Madison Greene_2-_251742806.mp4"
   },
   {
     "id": 134070434,
@@ -737,7 +767,8 @@ const QUESTIONS = [
         "text": "Both"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/6_NCAA Division I/151039/151039_Oliver Powell_2-_134070434.mp4"
   },
   {
     "id": 223083214,
@@ -757,7 +788,8 @@ const QUESTIONS = [
         "text": "Both"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/6_NCAA Division I/592518/592518_David Jones_2+_223083214.mp4"
   },
   {
     "id": 175785042,
@@ -777,7 +809,8 @@ const QUESTIONS = [
         "text": "Left"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/31_Spain. Liga Endesa/14828/14828_James Webb_2+_175785042.mp4"
   },
   {
     "id": 176156740,
@@ -797,7 +830,8 @@ const QUESTIONS = [
         "text": "Left"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/23_Lithuania. LKL/3448/3448_Martynas Varnas_2+_176156740.mp4"
   },
   {
     "id": 263903552,
@@ -817,7 +851,8 @@ const QUESTIONS = [
         "text": "Left"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/31_Spain. Liga Endesa/4843/4843_Sander Raieste_2+_263903552.mp4"
   },
   {
     "id": 267729301,
@@ -845,7 +880,8 @@ const QUESTIONS = [
         "text": "Jumper"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/622519/622519_Maleia Bracone_3-_267729301.mp4"
   },
   {
     "id": 231188310,
@@ -873,7 +909,8 @@ const QUESTIONS = [
         "text": "Alley oop"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/23_Lithuania. LKL/12179/12179_Rihards Kuksiks_3-_231188310.mp4"
   },
   {
     "id": 266581026,
@@ -901,7 +938,8 @@ const QUESTIONS = [
         "text": "Jumper"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/2_Euroleague/4560/4560_Alberto Abalde_2+_266581026.mp4"
   },
   {
     "id": 122942291,
@@ -929,7 +967,8 @@ const QUESTIONS = [
         "text": "Lay up"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/137_United States. NBA G-League/12510/12510_Gyorgy Goloman_2+_122942291.mp4"
   },
   {
     "id": 140566184,
@@ -957,7 +996,8 @@ const QUESTIONS = [
         "text": "Dunk"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/3_NBA/7506/7506_Jake Layman_2+_140566184.mp4"
   },
   {
     "id": 267424100,
@@ -985,7 +1025,8 @@ const QUESTIONS = [
         "text": "Restricted Area"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/13_ABA League/30511/30511_Fletcher Magee_3-_267424100.mp4"
   },
   {
     "id": 125598837,
@@ -1013,7 +1054,8 @@ const QUESTIONS = [
         "text": "Corner"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/137_United States. NBA G-League/29277/29277_Antonius Cleveland_2+_125598837.mp4"
   },
   {
     "id": 278884746,
@@ -1041,7 +1083,8 @@ const QUESTIONS = [
         "text": "Point"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/6_NCAA Division I/562350/562350_Darin Green Jr._3-_278884746.mp4"
   },
   {
     "id": 222844477,
@@ -1069,7 +1112,8 @@ const QUESTIONS = [
         "text": "Low Post"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/6_NCAA Division I/488333/488333_Matt Faw_2-_222844477.mp4"
   },
   {
     "id": 125650614,
@@ -1097,7 +1141,8 @@ const QUESTIONS = [
         "text": "Restricted Area"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/6_NCAA Division I/58435/58435_Jalen Hudson_3-_125650614.mp4"
   },
   {
     "id": 168549308,
@@ -1125,7 +1170,8 @@ const QUESTIONS = [
         "text": "Paul Reed"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/137_United States. NBA G-League/5676/5676_Julian Washburn_2+1_168549308.mp4"
   },
   {
     "id": 245941070,
@@ -1153,7 +1199,8 @@ const QUESTIONS = [
         "text": "Zvonimir Ivisic"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/13_ABA League/522344/522344_Tomislav Ivisic_1+_245941070.mp4"
   },
   {
     "id": 185361900,
@@ -1181,7 +1228,8 @@ const QUESTIONS = [
         "text": "Marijn Jasper Ververs"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/39_FIBA Europe Cup/476457/476457_Asbjorn Midtgaard_Rebound_185361900.mp4"
   },
   {
     "id": 140017079,
@@ -1209,7 +1257,8 @@ const QUESTIONS = [
         "text": "DeMarcus Nelson"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/2_Euroleague/520397/520397_DeMarcus Nelson_Foul_140017079.mp4"
   },
   {
     "id": 161386374,
@@ -1237,7 +1286,8 @@ const QUESTIONS = [
         "text": "Nikola Maric"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/7829/7829_Nikola Maric_2-_161386374.mp4"
   },
   {
     "id": 222642463,
@@ -1265,7 +1315,8 @@ const QUESTIONS = [
         "text": "31, ASD FILA San Martino Di Lupari"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/288_Italy. LegA Basket Femminile/8121/8121_Kim Mestdagh_3-_222642463.mp4"
   },
   {
     "id": 195818283,
@@ -1293,7 +1344,8 @@ const QUESTIONS = [
         "text": "17, Bahcesehir Koleji SK"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/39_FIBA Europe Cup/40994/40994_Einaras Tubutis_2+_195818283.mp4"
   },
   {
     "id": 266775945,
@@ -1321,7 +1373,8 @@ const QUESTIONS = [
         "text": "32, Western Illinois"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/6_NCAA Division I/561124/561124_Max Abmas_2+_266775945.mp4"
   },
   {
     "id": 249751729,
@@ -1349,7 +1402,8 @@ const QUESTIONS = [
         "text": "40, Air Force"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/849119/849119_Faith Shelton_2+_249751729.mp4"
   },
   {
     "id": 217697817,
@@ -1377,7 +1431,8 @@ const QUESTIONS = [
         "text": "20, Sporting CP"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/39_FIBA Europe Cup/101552/101552_Tanner Omlid_2-_217697817.mp4"
   },
   {
     "id": 135863817,
@@ -1397,7 +1452,8 @@ const QUESTIONS = [
         "text": "Guard"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/6_NCAA Division I/31963/31963_Tim Rowe_Pick'n'Roll_135863817.mp4"
   },
   {
     "id": 169964408,
@@ -1417,7 +1473,8 @@ const QUESTIONS = [
         "text": "Guard"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/538945/538945_Elijah Harkless_Post_169964408.mp4"
   },
   {
     "id": 161562533,
@@ -1437,7 +1494,8 @@ const QUESTIONS = [
         "text": "Forward"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/288_Italy. LegA Basket Femminile/366739/366739_Valentina Bonasia_1+_161562533.mp4"
   },
   {
     "id": 224216364,
@@ -1457,7 +1515,8 @@ const QUESTIONS = [
         "text": "Forward"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/7_VTB League/1179/1179_Evgeniy Kolesnikov_Assisting_224216364.mp4"
   },
   {
     "id": 141983484,
@@ -1477,7 +1536,8 @@ const QUESTIONS = [
         "text": "Guard"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/13638/13638_Jacob Young_Assisting_141983484.mp4"
   },
   {
     "id": 133995834,
@@ -1497,7 +1557,8 @@ const QUESTIONS = [
         "text": "Poor"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/6_NCAA Division I/10392/10392_Quinton Adlesh_2+_133995834.mp4"
   },
   {
     "id": 251953754,
@@ -1517,7 +1578,8 @@ const QUESTIONS = [
         "text": "Average"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/2_Euroleague/6227/6227_Danilo Andjusic_3-_251953754.mp4"
   },
   {
     "id": 176206274,
@@ -1537,7 +1599,8 @@ const QUESTIONS = [
         "text": "Poor"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/7_VTB League/6772/6772_Will Cummings_3+_176206274.mp4"
   },
   {
     "id": 153185651,
@@ -1557,7 +1620,8 @@ const QUESTIONS = [
         "text": "Average"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/476723/476723_Dylan Carl_2+_153185651.mp4"
   },
   {
     "id": 161781697,
@@ -1577,7 +1641,8 @@ const QUESTIONS = [
         "text": "Excellent"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/7_VTB League/123479/123479_Kristopher Clyburn_3-_161781697.mp4"
   },
   {
     "id": 163397745,
@@ -1605,7 +1670,8 @@ const QUESTIONS = [
         "text": "43 - 39"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/3_NBA/109/109_Myles Turner_Foul_163397745.mp4"
   },
   {
     "id": 124911734,
@@ -1633,7 +1699,8 @@ const QUESTIONS = [
         "text": "56 - 33"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/18-19/6_NCAA Division I/14759/14759_Karl Gamble_Foul_124911734.mp4"
   },
   {
     "id": 275238212,
@@ -1661,7 +1728,8 @@ const QUESTIONS = [
         "text": "61 - 77"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/31_Spain. Liga Endesa/14618/14618_Marc Garcia_Rebound_275238212.mp4"
   },
   {
     "id": 153938562,
@@ -1689,7 +1757,8 @@ const QUESTIONS = [
         "text": "88 - 89"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/58521/58521_Tavian Dunn-Martin_Rebound_153938562.mp4"
   },
   {
     "id": 221691451,
@@ -1717,7 +1786,8 @@ const QUESTIONS = [
         "text": "67 - 73"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/156_NCAA Division I (W)/643481/643481_Trinity San Antonio_Foul_221691451.mp4"
   },
   {
     "id": 155031921,
@@ -1745,7 +1815,8 @@ const QUESTIONS = [
         "text": "1:31"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/156_NCAA Division I (W)/9716/9716_Paula Lenart_2+_155031921.mp4"
   },
   {
     "id": 152393043,
@@ -1773,7 +1844,8 @@ const QUESTIONS = [
         "text": "6:02"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/156_NCAA Division I (W)/476033/476033_Samantha Thomas_3+_152393043.mp4"
   },
   {
     "id": 267424100,
@@ -1801,7 +1873,8 @@ const QUESTIONS = [
         "text": "8:29"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/13_ABA League/30511/30511_Fletcher Magee_3-_267424100.mp4"
   },
   {
     "id": 263749776,
@@ -1829,7 +1902,8 @@ const QUESTIONS = [
         "text": "0:24"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/156_NCAA Division I (W)/649928/649928_Adison Novosel_3-_263749776.mp4"
   },
   {
     "id": 154381146,
@@ -1857,7 +1931,8 @@ const QUESTIONS = [
         "text": "2:51"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/156_NCAA Division I (W)/478556/478556_Khiarica Rasheed_2+_154381146.mp4"
   },
   {
     "id": 191657286,
@@ -1885,7 +1960,8 @@ const QUESTIONS = [
         "text": "6"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/156_NCAA Division I (W)/594766/594766_Tameiya Sadler_2-_191657286.mp4"
   },
   {
     "id": 241973023,
@@ -1913,7 +1989,8 @@ const QUESTIONS = [
         "text": "12"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/31_Spain. Liga Endesa/9136/9136_Sergio Rodriguez_2+_241973023.mp4"
   },
   {
     "id": 183494408,
@@ -1941,7 +2018,8 @@ const QUESTIONS = [
         "text": "12"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/480098/480098_Marcus McClary_2+_183494408.mp4"
   },
   {
     "id": 173448378,
@@ -1969,7 +2047,8 @@ const QUESTIONS = [
         "text": "6"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/23_Lithuania. LKL/32631/32631_Domantas Vilys_3+_173448378.mp4"
   },
   {
     "id": 152881452,
@@ -1997,7 +2076,8 @@ const QUESTIONS = [
         "text": "18"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/93020/93020_Marcus Ottey_3+_152881452.mp4"
   },
   {
     "id": 206929430,
@@ -2021,7 +2101,8 @@ const QUESTIONS = [
         "text": "1"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/31_Spain. Liga Endesa/8040/8040_Alex Gregory Renfroe_Assisting_206929430.mp4"
   },
   {
     "id": 206301050,
@@ -2037,7 +2118,8 @@ const QUESTIONS = [
         "text": "2"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/6_NCAA Division I/589452/589452_Ricky Council IV_Assisting_206301050.mp4"
   },
   {
     "id": 190592421,
@@ -2061,7 +2143,8 @@ const QUESTIONS = [
         "text": "2"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/21-22/39_FIBA Europe Cup/5684/5684_Fabian Bleck_Foul_190592421.mp4"
   },
   {
     "id": 184636122,
@@ -2085,7 +2168,8 @@ const QUESTIONS = [
         "text": "4"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/156_NCAA Division I (W)/566867/566867_Jacy Sheldon_2-_184636122.mp4"
   },
   {
     "id": 264370616,
@@ -2109,7 +2193,8 @@ const QUESTIONS = [
         "text": "4"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/22-23/2_Euroleague/3260/3260_Elie Okobo_2-_264370616.mp4"
   },
   {
     "id": 142337031,
@@ -2137,7 +2222,8 @@ const QUESTIONS = [
         "text": "New York Knicks and Los Angeles Lakers"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/3_NBA/9365/9365_Bradley Beal_Rebound_142337031.mp4"
   },
   {
     "id": 154513279,
@@ -2165,7 +2251,8 @@ const QUESTIONS = [
         "text": "Indiana and Nebraska"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/531072/531072_Rob Phinisee_Rebound_154513279.mp4"
   },
   {
     "id": 166150057,
@@ -2193,7 +2280,8 @@ const QUESTIONS = [
         "text": "Carver Bible and Saint Mary's"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/20-21/6_NCAA Division I/545992/545992_Daquan Smith_Foul_166150057.mp4"
   },
   {
     "id": 142548571,
@@ -2221,7 +2309,8 @@ const QUESTIONS = [
         "text": "Truman State and Christian Brothers"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/6_NCAA Division I/561121/561121_Keylan Boone_2-_142548571.mp4"
   },
   {
     "id": 147658851,
@@ -2249,6 +2338,7 @@ const QUESTIONS = [
         "text": "Iberostar Tenerife and BC Balkan Botevgrad"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/aggregated_clips/18-23_clips/19-20/79_Europe. FIBA Champions League/10245/10245_Adrian Banks_2-_147658851.mp4"
   }
-];
+]

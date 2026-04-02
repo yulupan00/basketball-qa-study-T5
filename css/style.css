@@ -90,6 +90,149 @@ body {
     margin-right: 8px;
 }
 
+/* === Rating Scale === */
+.rating-scale {
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+.rating-btn {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #444;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-btn:hover {
+    border-color: #2d6a9f;
+    background: #f0f6ff;
+}
+
+.rating-btn.active {
+    border-color: #2d6a9f;
+    background: #2d6a9f;
+    color: #fff;
+}
+
+.rating-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 0.75rem;
+    color: #888;
+}
+
+/* === Confidence Rating === */
+.confidence-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+    padding: 12px 16px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.confidence-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #555;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+
+.confidence-btn {
+    padding: 6px 14px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.confidence-btn:hover {
+    border-color: #2d6a9f;
+    background: #f0f6ff;
+}
+
+.confidence-btn.active {
+    border-color: #2d6a9f;
+    background: #e8f0fe;
+    color: #1e3a5f;
+    font-weight: 600;
+}
+
+.confidence-btn.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+/* === Toggle Switch === */
+.toggle-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #ccc;
+    border-radius: 24px;
+    transition: 0.2s;
+}
+
+.toggle-slider::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+    background: #2d6a9f;
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+    transform: translateX(20px);
+}
+
+.toggle-text .form-label {
+    margin-bottom: 0;
+}
+
 .start-form .form-label {
     font-weight: 600;
     font-size: 0.95rem;
