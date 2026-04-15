@@ -1,4 +1,4 @@
-const QUESTIONS = [
+[
   {
     "id": "Q1_568_3",
     "question_type": "Q1",
@@ -25,7 +25,8 @@ const QUESTIONS = [
         "text": "10"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q1/826378_3.mp4"
   },
   {
     "id": "Q10_6564_2",
@@ -53,7 +54,8 @@ const QUESTIONS = [
         "text": "Jumper"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q10/403699_2.mp4"
   },
   {
     "id": "Q2_1266_1",
@@ -81,7 +83,8 @@ const QUESTIONS = [
         "text": "24"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q2/974725_1.mp4"
   },
   {
     "id": "Q3_1592_1",
@@ -109,7 +112,8 @@ const QUESTIONS = [
         "text": "The player who makes a three-point attempt between time 4:24 and 4:34"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q3/822305_1.mp4"
   },
   {
     "id": "Q4_2655_4",
@@ -125,7 +129,8 @@ const QUESTIONS = [
         "text": "Donar Groningen"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q4/807313_4.mp4"
   },
   {
     "id": "Q5_3159_2",
@@ -145,7 +150,8 @@ const QUESTIONS = [
         "text": "Overtime"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q5/971778_2.mp4"
   },
   {
     "id": "Q6_3506_3",
@@ -173,7 +179,8 @@ const QUESTIONS = [
         "text": "The player who grabs a rebound between time 1:46 and 1:56"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q6/868771_3.mp4"
   },
   {
     "id": "Q7_4412_2",
@@ -201,7 +208,8 @@ const QUESTIONS = [
         "text": "Transition"
       }
     ],
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q7/1022812_2.mp4"
   },
   {
     "id": "Q8_4971_4",
@@ -217,7 +225,8 @@ const QUESTIONS = [
         "text": "Jumper"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q8/701751_4.mp4"
   },
   {
     "id": "Q9_6285_1",
@@ -245,6 +254,7 @@ const QUESTIONS = [
         "text": "Cut"
       }
     ],
-    "correct_answer": "E"
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q9/403100_1.mp4"
   }
-];
+]
