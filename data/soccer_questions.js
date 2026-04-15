@@ -20,28 +20,24 @@ const QUESTIONS = [
     "correct_answer": "B"
   },
   {
-    "id": "Q2_358_5235081",
+    "id": "Q2_55_5588190",
     "question_type": "Q2",
-    "question": "Watch a 3-minute segment in the first half. How many goals will team Chelsea record from the end of this segment until the end of the game?",
+    "question": "Watch a 3-minute segment in the second half. How many shots on target will team Arsenal record from the end of this segment until the end of the game?",
     "options": [
       {
         "letter": "A",
-        "text": "4"
+        "text": "6"
       },
       {
         "letter": "B",
-        "text": "1"
+        "text": "2"
       },
       {
         "letter": "C",
-        "text": "0"
-      },
-      {
-        "letter": "D",
-        "text": "2"
+        "text": "4"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "B"
   },
   {
     "id": "Q3_239_5592266",
