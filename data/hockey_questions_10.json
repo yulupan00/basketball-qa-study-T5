@@ -1,4 +1,4 @@
-const QUESTIONS = [
+[
   {
     "id": "Q1_426_681911",
     "question_type": "Q1",
@@ -25,7 +25,8 @@ const QUESTIONS = [
         "text": "1"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q1/681911_1.mp4"
   },
   {
     "id": "Q2_20_437343",
@@ -53,7 +54,8 @@ const QUESTIONS = [
         "text": "15"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q2/437343_3.mp4"
   },
   {
     "id": "Q3_16_682206",
@@ -81,7 +83,8 @@ const QUESTIONS = [
         "text": "The player who makes a takeaway between time 3:28 and 3:38"
       }
     ],
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q3/682206_1.mp4"
   },
   {
     "id": "Q4_184_689258",
@@ -97,7 +100,8 @@ const QUESTIONS = [
         "text": "Boston Bruins"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q4/689258_1.mp4"
   },
   {
     "id": "Q4_13_576742",
@@ -113,7 +117,8 @@ const QUESTIONS = [
         "text": "Carolina Hurricanes"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q4/576742_1.mp4"
   },
   {
     "id": "Q5_412_681911",
@@ -133,7 +138,8 @@ const QUESTIONS = [
         "text": "Overtime"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q5/681911_2.mp4"
   },
   {
     "id": "Q5_320_685975",
@@ -153,7 +159,8 @@ const QUESTIONS = [
         "text": "Erie Otters"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q5/685975_2.mp4"
   },
   {
     "id": "Q6_66_787709",
@@ -181,7 +188,8 @@ const QUESTIONS = [
         "text": "The player who makes a hit between time 1:58 and 2:08"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q6/787709_3.mp4"
   },
   {
     "id": "Q7_27_577065",
@@ -205,7 +213,8 @@ const QUESTIONS = [
         "text": "Hard slapshot"
       }
     ],
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q7/577065_2.mp4"
   },
   {
     "id": "Q8_199_229145",
@@ -221,6 +230,7 @@ const QUESTIONS = [
         "text": "Slapshot"
       }
     ],
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/forecasting/Q8/229145_3.mp4"
   }
-];
+]
