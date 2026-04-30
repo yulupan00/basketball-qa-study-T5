@@ -21,7 +21,7 @@
     let currentIndex = 0;
     let answers = {};
     let selectedOption = null;
-    let selectedConfidence = "sure"; // default
+    let selectedConfidence = null; // must be chosen by user
     let session = null;
 
     // Auto-save interval (30 seconds)
@@ -110,6 +110,7 @@
                 document.querySelectorAll(".confidence-btn").forEach((b) => b.classList.remove("active"));
                 btn.classList.add("active");
                 selectedConfidence = btn.dataset.confidence;
+                submitBtn.disabled = !(selectedOption && selectedConfidence);
             });
         });
 
@@ -245,18 +246,15 @@
             confBtns.forEach((btn) => {
                 btn.classList.remove("active");
                 btn.classList.add("disabled");
-                if (btn.dataset.confidence === (existingAnswer.confidence || "sure")) {
+                if (btn.dataset.confidence === existingAnswer.confidence) {
                     btn.classList.add("active");
                 }
             });
         } else {
-            // Reset to default "sure"
-            selectedConfidence = "sure";
+            // Reset — no default, user must choose
+            selectedConfidence = null;
             confBtns.forEach((btn) => {
                 btn.classList.remove("active", "disabled");
-                if (btn.dataset.confidence === "sure") {
-                    btn.classList.add("active");
-                }
             });
         }
 
@@ -287,7 +285,7 @@
         document.querySelectorAll(".option-btn").forEach((b) => b.classList.remove("selected"));
         btnElement.classList.add("selected");
         selectedOption = letter;
-        submitBtn.disabled = false;
+        submitBtn.disabled = !(selectedOption && selectedConfidence);
     }
 
     // ============================================================
